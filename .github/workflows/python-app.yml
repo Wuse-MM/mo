@@ -32,4 +32,4 @@ jobs:
         uv sync
     - name: Run project
       run: |
-        uv run ChebyKAN Open.py
+        uv run "ChebyKAN Open.py"
