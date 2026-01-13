@@ -23,7 +23,7 @@ jobs:
       with:
         python-version: "3.9"
     - name: Install UV
-    - run: |
+      run: |
         apt install wget
         wget -qO- https://astral.sh/uv/install.sh | sh
     - name: Install dependencies
