@@ -1,0 +1,17 @@
+[project]
+name = "mo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "catboost>=1.2.8",
+    "numpy>=2.0.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "pyswarm>=0.6",
+    "scikit-learn==1.5.2",
+    "seaborn>=0.13.2",
+    "torch>=2.8.0",
+    "tqdm>=4.67.1",
+]
